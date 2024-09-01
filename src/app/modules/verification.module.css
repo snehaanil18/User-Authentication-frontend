@@ -1,0 +1,67 @@
+.container{
+    margin: 50px auto;
+    box-sizing: border-box;
+    width: 600px;
+    padding: 20px;
+    border: 1px solid rgb(47, 141, 248);
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(46, 43, 43);
+    box-shadow: 0 4px 8px 0 rgba(247, 247, 247, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.verification{
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+.verification input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+    outline: none;
+}
+
+.verification input:focus{
+    border-color: rgb(47, 141, 248);
+}
+
+.verification button{
+    background-color: rgb(47, 141, 248);
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.resend{
+    display: flex;
+    gap: 10px;
+}
+
+.resend p{
+    /* color: rgb(105, 102, 94); */
+    font-size: 16px;
+}
+
+.resend button{
+    padding: 4px 15px;
+    color: #ccc;
+    border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.resend button:hover{
+    color: blue;
+}
+
+#verify{
+    padding: 10px 15px;
+    border-radius: 5px;
+}

@@ -1,0 +1,65 @@
+.bankFields {
+    background-color: rgb(46, 43, 43);
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid rgb(47, 141, 248);
+    color: white;
+    box-sizing: border-box;
+    width: 600px;
+}
+
+.bankFields label {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.inputFields {
+    margin: 20px;
+    gap: 20px;
+}
+
+.inputFields label {
+    font-size: 15px;
+    width: 120px;
+}
+
+.inputFields input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+ 
+}
+
+.inputFields button {
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: rgb(47, 141, 248);
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.fields{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.status {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Button{
+    margin: 20px 130px;
+}
+
+@media screen and (min-width: 300px) and (max-width:900px){
+    .bankFields{
+        width: 100%;
+        margin: 50px auto;
+    }
+}

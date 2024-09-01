@@ -1,0 +1,70 @@
+.container{
+
+    display: flex;
+}
+
+.sidenav{
+    width: 300px;
+    background-color: rgb(46, 43, 43);
+    gap: 20px;
+    padding: 10px ;
+    height: 100vh;
+    justify-content: end;
+}
+
+.menuContent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidenav button{
+    padding: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.sidenav button:hover{
+    color: blue;
+}
+
+.active{
+    text-decoration: underline;
+    color: rgb(119, 112, 212);
+}
+
+.menuButton{
+    background: transparent;
+    border: transparent;
+    display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width:900px){
+    .container{
+        justify-content: start;
+    }
+    .menuButton{
+        display: block;
+        position: absolute;
+        top: 0;
+    }
+
+    .sidenav{
+        display: none;
+        padding: 10px;
+        padding-top: 30px;
+        height: fit-content;
+        justify-content: start;
+        width: 150px;
+
+    }
+
+    .sidenav.show {
+        display: flex; /* Show side navigation when visible */
+      }
+
+    .verification{
+
+        margin: 0px auto;
+    }
+}

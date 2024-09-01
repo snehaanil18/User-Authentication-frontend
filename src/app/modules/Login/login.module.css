@@ -1,0 +1,38 @@
+.container{
+    margin: 30px auto;
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid rgb(23, 23, 24);
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(46, 43, 43);
+    color: white;
+}
+
+.formContent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formContent input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.formContent input:focus{
+    border-color: rgb(47, 141, 248);
+}
+
+.submitButton{
+    height: 35px;
+    margin-top: 15px;
+    background-color: rgb(47, 141, 248);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+}

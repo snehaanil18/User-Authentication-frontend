@@ -1,0 +1,49 @@
+.inputFields{
+    width: 600px;
+    background-color: rgb(46, 43, 43);
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid rgb(47, 141, 248);
+    color: white;
+    box-sizing: border-box;
+}
+.labelName{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.fields{
+    margin: 10px 0px;
+}
+
+.fields input{
+    padding: 10px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.fields button{
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: rgb(47, 141, 248);
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.status{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (min-width: 300px) and (max-width:900px){
+    .inputFields{
+        width: 100%;
+        margin: 50px auto;
+    }
+}
