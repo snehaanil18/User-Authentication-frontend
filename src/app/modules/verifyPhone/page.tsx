@@ -41,9 +41,11 @@ function Page() {
     //verify the OTP entered by user
     const verifyOtp = async() => {
         const reqBody = {phone,otp}
-
+        console.log(otp,phone);
+        
         try {
             const response = await verifyMobileOtpAPI(reqBody);
+            console.log(response);
             
             // Handle response status
             if (response.status === 200) {
